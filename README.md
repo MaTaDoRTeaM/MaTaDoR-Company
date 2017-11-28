@@ -1,1 +1,3 @@
-# MaTaDoR-Company
+###  Telegram channel:
+
+# [MaTaDoRTeaM](https://telegram.me/MaTaDoRTeaM)
