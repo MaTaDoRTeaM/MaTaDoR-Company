@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+tmux kill-session -t "Cli"
+tmux kill-session -t "Api"
+
+echo "Start Launch ...."
+echo "█▒▒▒▒▒▒▒▒▒ 10%"
+sleep 0.5
+echo ""
+echo ""
+echo "██▒▒▒▒▒▒▒▒ 20%"
+sleep 0.5
+echo ""
+echo ""
+echo "███▒▒▒▒▒▒▒ 30%"
+sleep 0.5
+echo ""
+echo ""
+echo "████▒▒▒▒▒▒ 40%"
+sleep 0.5
+echo ""
+echo ""
+echo "█████▒▒▒▒▒ 50%"
+sleep 0.5
+echo ""
+echo ""
+echo "██████▒▒▒▒ 60%"
+sleep 0.5
+echo ""
+echo ""
+echo "███████▒▒▒ 70%"
+sleep 0.5
+echo ""
+echo ""
+echo "████████▒▒ 80%"
+sleep 0.5
+echo ""
+echo ""
+echo "█████████▒ 90%"
+sleep 0.5
+echo ""
+echo ""
+echo "██████████ 100%"
+sleep 1
+echo "Base TDBot ( CerNer )"
+sleep 0.7
+echo ""
+echo "Edit By @MahDiRoO"
+sleep 0.7
+echo ""
+echo "Channel @MaTaDoRTeaM"
+sleep 2
+tmux new-session -d -s "Cli" "./Download/Cli"
+tmux detach -s "Cli"
+echo "Cli and Api Now Running!"
+echo "... The terminal is Closed ..."
+sleep 5
+tmux new-session -d -s "Api" "./Download/Api"
+tmux detach -s "Api"

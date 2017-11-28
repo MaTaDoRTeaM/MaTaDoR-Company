@@ -1,0 +1,12 @@
+SUDO_ID = {0000000,0000000,0000000,0000000} --آیدی سودو های ربات (ربات cli , api  قرار بدید)
+Full_Sudo = {0000000} -- آیدی سودو اصلی
+TD_ID = 0000000 -- آیدی ربات
+Sudoid = 0000000 -- آیدی سودو اصلی
+BotHelper = 0000000 -- آیدی هلپر
+UserBotHelper = '@HelperCompanybot' -- یوزرنیم هلپر
+LinkSuppoRt = 'https://t.me/joinchat/' -- لینک گروه ساپورت
+UserSudo = '@MahDiRoO' -- یوزرنیم سازنده
+PvUserSudo = '@MahDiRoO_Bot' -- پیام رسان سازنده
+Channel = '@MaTaDoRTeaM' -- یوزرنیم کانال 
+ChannelInline = 'MaTaDoRTeaM' --یوزنیم کانال بدون @
+token = 'Tokan' -- توکن ربات api
